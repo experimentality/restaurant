@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Restaurant app</title>
+    <link rel="icon" type="img/ico" href="favicon.ico">
+    <link rel="stylesheet" href="bower_components/materialize/bin/materialize.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="app/app.css"/>
+
+  </head>
+  <body ng-app="restaurantApp">
+    <navbar></navbar>
+    <div ui-view=""></div>
+    <footer></footer>
+
+    <!-- libraries -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/materialize/bin/materialize.js"></script>
+    <script src="bower_components/angular-materialize/src/angular-materialize.js"></script>
+
+    <!-- config -->
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/home/home.js"></script>
+
+
+    <!-- controllers -->
+    <script type="text/javascript" src="app/home/home.controller.js"></script>
+    <script type="text/javascript" src="components/navbar/navbar.controller.js"></script>
+
+    <!-- directives -->
+    <script type="text/javascript" src="components/navbar/navbar.directive.js"></script>
+    <script type="text/javascript" src="components/footer/footer.directive.js"></script>
+
+    <!-- services -->
+    <script type="text/javascript" src="services/restaurant.service.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "username": "james",
+    "password": "james",
+    "name": "JAMES",
+    "lastname": "GARZÓN OTÁLVARO",
+    "phone": "554-55-67",
+    "address":  "CARRERA 15 # 34-67",
+    "email": "james.garzon@udea.edu.co"
+  },
+  {
+    "id": 2,
+    "username": "admin",
+    "password": "admin",
+    "name": "ADMIN",
+    "lastname": "",
+    "phone": "555-55-55",
+    "address":  "CARRERA 15 # 34-67",
+    "email": "admin@comics.com"
+  }
+]
