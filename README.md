@@ -1,3 +1,3 @@
-# Aplicacion de Comics
+# Aplicacion para administración de restaurantes
 
-Esta es una aplicación para la administración de una pagina de Comics
+Esta es una aplicación para la administración de restaurantes
